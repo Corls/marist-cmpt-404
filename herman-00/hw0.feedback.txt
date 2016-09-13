@@ -1,0 +1,72 @@
+14 pts
+
+Corley,
+
+- You showed a nice proof that you have all the necessary setup for python.
+
+- You showed a nice proof that you have a GitHub account and that you added me as a
+  collaborator.
+
+- You provided a nice proof that you created a Kaggle account.
+
+About the problems:
+1. 
+You have the correct answer and a good explanation.
+
+2. 
+You have a correct answer and a good explanation.
+
+3.(a)
+You have a very good explanation.
+
+3.(b)
+You have an incorrect answer, the rank is 2.
+You did not provide Python code to support your answer.
+
+4. Gaussian
+The answer you provided is not complete. -1pt
+
+4. Multivariate Gaussian
+The answer you provided is not complete. -1pt
+
+4. Bernoulli
+The formula you provided is correct.
+
+4. Binomial
+You provided the correct binomial distribution equation.
+
+4. Exponential
+The answer you provided is not complete. 
+
+6.
+The answer you provided is not clear.
+
+7.(a)
+The answer you provided is not correct. -1pt
+
+7.(b)
+You did not provide an answer. -1pt
+
+8.(a)
+The answer you provided is not correct. -1pt
+
+8.(b)
+You did not provide an answer. -1pt
+
+8.(c)
+You did not provide an answer. 
+
+8.(d)
+You did not provide an answer. 
+
+About your $\LaTeX$ work:
+- If this was your first time, you did ok!
+
+Overall a barely acceptable work:
+- No python to support your answers -2pts
+- No .pdf from $\LaTeX$
+
+
+Peace,
+
+- Dr. Pablo Rivas
