@@ -1,0 +1,74 @@
+\documentclass[a4paper]{article}
+\usepackage[letterpaper, margin=1in]{geometry} % page format
+\usepackage{listings} % this package is for including code
+\usepackage{graphicx} % this package is for including figures
+\usepackage{amsmath}  % this package is for math and matrices
+\usepackage{amsfonts} % this package is for math fonts
+\usepackage{tikz} % for drawings
+\usepackage{hyperref} % for urls
+
+\title{Homework2}
+\author{Corley Herman}
+\date{9/26/16}
+
+\begin{document}
+\lstset{language=Python}
+
+\maketitle
+
+\noindent Question 2.1:\\
+$E_{out}(g)\leq E_{in}(g)+\sqrt{\frac{1}{2N}ln(\frac{2M}{\delta})}$\\
+$\varepsilon(M,N,\delta)\leq\sqrt{\frac{1}{2N}ln(\frac{2M}{\delta})}$\\
+$N\geq\frac{1}{2\varepsilon^2}ln(\frac{2M}{\delta})$\\
+\\
+Question 2.1a:\\
+$N\geq\frac{1}{2(0.05^2)}ln(\frac{2(10)}{0.03})$\\
+$N\geq\frac{1}{0.005}ln(\frac{2000}{3})$\\
+$N\geq200(6.5)$\\
+$N\geq1300$\\
+\\
+Question 2.1b:\\
+$N\geq\frac{1}{2(0.05^2)}ln(\frac{2(100)}{0.03})$\\
+$N\geq\frac{1}{0.005}ln(\frac{20000}{3})$\\
+$N\geq200(8.8)$\\
+$N\geq1761$\\
+\\
+Question 2.1c:\\
+$N\geq\frac{1}{2(0.05^2)}ln(\frac{2(10000)}{0.03})$\\
+$N\geq\frac{1}{0.005}ln(\frac{20000}{0.03})$\\
+$N\geq200(13.4)$\\
+$N\geq2682$\\
+\\
+Question 2.11:\\
+$E_{out}(g)\leq E_{in}(g)+\sqrt{\frac{8}{N}ln(\frac{4m_\mathcal{H}(2N)}{\delta})}$\\
+Part 1 - $N=100$
+$E_{out}(g)\leq E_{in}(g)+\sqrt{\frac{8}{100}ln(\frac{4(2N+1)}{0.1})}$\\
+$E_{out}(g)\leq E_{in}(g)+\sqrt{0.08ln(8040)}$\\
+$E_{out}(g)\leq E_{in}(g)+0.85$\\
+Part 2 - $N=10000$
+$E_{out}(g)\leq E_{in}(g)+\sqrt{\frac{8}{10000}ln(\frac{4(2N+1)}{0.1})}$\\
+$E_{out}(g)\leq E_{in}(g)+\sqrt{0.0008ln(800040)}$\\
+$E_{out}(g)\leq E_{in}(g)+0.1$\\
+\\
+Question 2.12:\\
+$N\geq\frac{8}{\varepsilon^2}ln(\frac{4((2N)^{10}+1)}{\delta})$\\
+$N\geq\frac{8}{0.05^2}ln(\frac{4((2N)^{10}+1)}{0.05})$\\
+$N\geq\frac{8}{0.025}(ln(4(1024N^{10}+1))-ln(0.05))$\\
+$N\geq3200(ln(4096)+10ln(N)+ln(4)-ln(0.05))$\\
+$N\geq3200(ln(\frac{4096(4)}{0.05})+10ln(N))$\\
+\newpage
+$N\geq3200(12.7+10ln(N))$\\
+$N\geq40639+32000ln(N)$\\
+At this point, I took it over to an online graphing calculator using the following two equations:\\
+$f(x)=12.7+ln(x)$\\
+$g(x)=\frac{x}{32000}$\\
+Using a pattern similar to merge sorting, I found an instance that the latter function was greater than the former function.\\
+I knew that the initial guess would have to be greater than 40639 unless you planned on taking somewhere between 0.000003 samples.\\
+So I zoomed out and took a big jump to 1000000 samples.\\
+f(x) was greater, so I then tried 500000 samples.\\
+g(x) was greater, so I then tried 300000 samples.\\
+f(x) was greater, so I then tried 400000 samples.\\
+f(x) was greater, so I then tried 450000 samples.\\
+At this point, the intersection marker of the online graphing calculator came on and I zoomed in to double check, bringing me to my final answer of:\\
+457729.046\\
+\end{document}
