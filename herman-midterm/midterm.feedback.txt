@@ -1,0 +1,25 @@
+87pts
+
+Corley,
+
+I could not find the .pdf document corresponding to your midterm exam.
+
+Here is your feedback and grade breakdown by problems:
+
+1) There is no explanation about your experiments, except that there are a
+bunch of plots that only you and God know what they mean. I wish you could
+describe them so would not have to penalize you for not knowing what you did.
+-9pts
+Did you only run the experiment once? Or the result is the average of multiple
+trials? - 1pt
+
+2) It seems like the code works only for initially small values of N. What if I
+over-estimate N and start with N=1,000,000? Your code would not work. -1pt
+Why is your code not commented? -2pts
+
+3) No picture/drawing.
+
+
+Peace,
+
+- Dr. Rivas
